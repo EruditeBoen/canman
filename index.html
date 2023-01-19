@@ -1,190 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CanManExpress</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Canman Express</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-    <!-- Header -->
-    <header class="header">
-        <a href="#" class="logo">marketo.</a>
-
-        <nav class="navbar">
-            <a href="#home">Home</a>
-            <a href="#services">Services</a>
-            <a href="#contact">Contact</a>
-        </nav>
-
-        <div id="menu-btn" class="fas fa-bars"></div>
-
-    </header>
-
-    <!-- Home -->
-    <section class="home" id="home">
-
-        <div class="content">
-            <h3>grow your business with us</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere atque sapiente veritatis nesciunt adipisci culpa.</p>
-            <a href="#" class="btn">try for free</a>
+  <section id="header" class="header">
+    <div class="nav-bar">
+      <div class="logo">
+        <a href="index.html">Canman<span>Express.</span></a>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="#" class="active">Cars<span>.</span></a></li>
+          <li><a href="#">History</a></li>
+          <li><a href="#">Technology</a></li>
+          <li><a href="#">Production</a></li>
+          <li><a href="#">Reviews</a></li>
+        </ul>
+      </div>
+      <div class="social-media">
+        <ul>
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="hero">
+      <div class="row">
+        <div class="left-sec">
+          <div class="content">
+            <h2><span>Towing</span><br>Services</h2>
+            <p>It is a long established fact that a set reader will distracted by the readable content of a page when looking at its layout technology.</p>
+          </div>
+          <button class="discover-btn">
+            <a href="#">discover</a><span><i class="fa fa-arrow-circle-o-right"></i></span>
+          </button>
+          <div class="information">
+            <div class="production">
+              <p>Production</p>
+              <h2>1234-5678</h2>
+            </div>
+            <div class="production">
+              <p>Designer</p>
+              <h2>Lorem Ipsum</h2>
+            </div>
+          </div>
         </div>
-    
-        <div class="image">
-            <img src="images/rocket.svg" alt="">
+        <div class="right-sec">
+          <div class="my-car">
+            <div><img src="img/1.png"></div>
+            <div><img src="img/2.png"></div>
+            <div><img src="img/3.png"></div>
+            <div><img src="img/4.png"></div>
+            <div><img src="img/5.png"></div>
+          </div>
         </div>
+      </div>
+    </div>
+  </section>
 
-        <div class="cloud cloud-1"></div>
-        <div class="cloud cloud-2"></div>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+  $(document).ready(function(){
     
-    </section>
+  });
 
-    <!-- Services -->
-    
-    <section class="services" id="services">
-    
-        <h1 class="heading"> our <span>services</span> </h1>
-    
-        <div class="box-container">
-    
-            <div class="box">
-                <img src="images/s-1.png" alt="">
-                <h3>web design</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, animi?</p>
-                <a href="#" class="btn">learn more</a>
-            </div>
-    
-            <div class="box">
-                <img src="images/s-2.png" alt="">
-                <h3>seo marketing</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, animi?</p>
-                <a href="#" class="btn">learn more</a>
-            </div>
-    
-            <div class="box">
-                <img src="images/s-3.png" alt="">
-                <h3>web hosting</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, animi?</p>
-                <a href="#" class="btn">learn more</a>
-            </div>
-    
-            <div class="box">
-                <img src="images/s-4.png" alt="">
-                <h3>digital marketing</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, animi?</p>
-                <a href="#" class="btn">learn more</a>
-            </div>
-    
-            <div class="box">
-                <img src="images/s-5.png" alt="">
-                <h3>ad campaign</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, animi?</p>
-                <a href="#" class="btn">learn more</a>
-            </div>
-    
-            <div class="box">
-                <img src="images/s-6.png" alt="">
-                <h3>content marketing</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, animi?</p>
-                <a href="#" class="btn">learn more</a>
-            </div>
-    
-        </div>
-    
-    </section>
-
-    <!-- Contact -->
-    <section class="contact" id="contact">
-
-        <h1 class="heading"> <span>contact</span> us </h1>
-    
-        <div class="icons-container">
-            <div class="icons">
-                <i class="fas fa-phone"></i>
-                <h3>our number</h3>
-                <p>+123-456-7890</p>
-                <p>+111-222-3333</p>
-            </div>
-            <div class="icons">
-                <i class="fas fa-envelope"></i>
-                <h3>our email</h3>
-                <p>shaikhanas@gmail.com</p>
-                <p>anashaikh@gmail.com</p>
-            </div>
-            <div class="icons">
-                <i class="fas fa-map-marker-alt"></i>
-                <h3>our location</h3>
-                <p>mumbai, india - 400104</p>
-            </div>
-        </div>
-    
-        <div class="row">
-    
-            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30153.788252261566!2d72.82321484621745!3d19.141690214227783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1629804296059!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
-    
-            <form action="">
-                <input type="text" placeholder="Name" class="box">
-                <input type="email" placeholder="Email" class="box">
-                <input type="number" placeholder="Number" class="box">
-                <textarea name="" placeholder="message" class="box" id="" cols="30" rows="10"></textarea>
-                <input type="submit" value="send message" class="btn">
-            </form>
-    
-        </div>
-    
-    </section>
-    
-    <!-- Footer -->
-    <section class="footer">
-
-        <div class="box-container">
-
-            <div class="box">
-                <h3>our branches</h3>
-                <a href="#"> <i class="fas fa-map-marker-alt"></i>memphis</a>
-                <a href="#"> <i class="fas fa-map-marker-alt"></i>atlanta</a>
-                <a href="#"> <i class="fas fa-map-marker-alt"></i>florida</a>
-                <a href="#"> <i class="fas fa-map-marker-alt"></i>alabama</a>
-                <a href="#"> <i class="fas fa-map-marker-alt"></i>texas</a>
-            </div>
-
-            <div class="box">
-                <h3>quick links</h3>
-                <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
-                <a href="#"> <i class="fas fa-arrow-right"></i> services </a>
-                <a href="#"> <i class="fas fa-arrow-right"></i> contact </a>
-            </div>
-
-            <div class="box">
-                <h3>our services</h3>
-                <a href="#"> <i class="fas fa-check"></i> web design </a>
-                <a href="#"> <i class="fas fa-check"></i> digital marketing </a>
-                <a href="#"> <i class="fas fa-check"></i> email marketing </a>
-                <a href="#"> <i class="fas fa-check"></i> content marketing </a>
-                <a href="#"> <i class="fas fa-check"></i> seo marketing </a>
-            </div>
-
-            <div class="box">
-                <h3>follow us</h3>
-                <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
-                <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
-                <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
-                <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
-                <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
-            </div>
-        </div>
-
-        <div class="credit">
-            created by <span>WeMadeIT Design</span> | all rights reserved
-            <img class="wemadeit" src="images/wemadeit.png" alt="">
-        </div>
-
-    </section>
-    <script src="script.js"></script>
+  $(".my-car").slick({
+    autoplay: true,
+	  speed:1000,
+    dots: true,
+    customPaging : function(slider, i) {
+    var thumb = $(slider.$slides[i]).data();
+    return '<a>'+(i+1)+'</a>';
+  },
+   
+});
+</script>
 </body>
-
 </html>
