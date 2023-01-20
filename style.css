@@ -188,6 +188,17 @@ section {
 
 .home .image img {
     width: 100%;
+    animation: anime 1s infinite ease-in-out alternate;
+}
+
+@keyframes anime {
+    100% {
+        transform: translateY(70px);
+        -webkit-transform: translateY(70px);
+        -moz-transform: translateY(70px);
+        -ms-transform: translateY(70px);
+        -o-transform: translateY(70px);
+    }
 }
 
 .home .content h3 {
