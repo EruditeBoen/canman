@@ -110,9 +110,8 @@
         <h1 class="heading"> our <span>video</span> </h1>
 
         <div class="video">
-            <video class="vid" autoplay loop>
-                <source src="videos/VID-20210301-WA0000.mp4" type="video/mp4">
-            </video>
+            <video id="vid" autoplay loop playsinline src="videos/VID-20210301-WA0000.mp4" controls></video>
+            <script>document.getElementById('vid').play();</script>
         </div>
 
     </section>
@@ -151,7 +150,7 @@
 
         <div class="credit">
             <img class="wemadeit" src="images/wemadeit.png" alt="">
-            created by <span>WeMadeIT Design  </span> | all rights reserved
+            created by <span>WeMadeIT Design </span> | all rights reserved
         </div>
 
     </section>

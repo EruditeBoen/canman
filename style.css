@@ -24,10 +24,6 @@
 .video {
     text-align: center;
 }
-.vid {
-    position: relative;
-    width: 50%;
-}
 
 html::-webkit-scrollbar{
     width: 1.5rem;
